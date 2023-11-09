@@ -1,0 +1,25 @@
+.guess-display-number {
+  height: 200px;
+  width: 200px !important;
+}
+
+.title-guess-display-number {
+  font-size: 100px;
+}
+
+.number-input-wrapper {
+  max-width: 200px;
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .number-input-wrapper {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .info-content {
+    max-width: 100% !important;
+    width: 100%;
+  }
+}
